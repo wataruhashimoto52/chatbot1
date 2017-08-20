@@ -1,12 +1,12 @@
 # Seq2Seq chatbot (ja)
 
+This is seq2seq chatbot implementation. Most credit goes to [1228337123](https://github.com/1228337123/tensorflow-seq2seq-chatbot) and [AvaisP](https://github.com/AvaisP/Neural_Conversation_Models). I'm just reimplmenting their work to have better understandings on seq2seq. This chat bot is optimized for Japanese. You may replace existing tokenizer with one for your language.
 
-Overview
+Main differences of my implementation are
+- More comments
+- Easy to understand input/output format for each processes
 
-## Description
-This is seq2seq chatbot.
-
-## Requirement
+## Requirements
 - Python 3.6
 - TensorFlow 1.2
 - MeCab
@@ -82,3 +82,11 @@ curl http://localhost:5000/talk?q=こんにちは
 ### Author
 
 - [wataruhashimoto52](https://github.com/wataruhashimoto52)
+
+## Reference
+
+- [seq2seq の chatbot を日本語で動かしてみた](http://d.hatena.ne.jp/higepon/20170428/1493382521)
+
+- [About Chatbot](https://www.youtube.com/results?search_query=Chatbot+Siraj+Raval)
+
+[![About Chatbot](https://i.ytimg.com/vi/SJDEOWLHYVo/hqdefault.jpg)](https://www.youtube.com/results?search_query=Chatbot+Siraj+Raval "About Chatbot")
