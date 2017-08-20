@@ -5,8 +5,8 @@ __pycache__/
 .keras/
 
 .env
-data/
-generated/
+data/*
+generated/*
 logs/
 
 !.gitkeep
