@@ -1,6 +1,12 @@
+.idea/
+__pycache__/
+.conda/
+.ipynb_checkpoints/
+.keras/
+
 .env
-data/
-.ipynb_checkpoints
-generated/
+data/*
+generated/*
 logs/
-__pycache__
+
+!.gitkeep
